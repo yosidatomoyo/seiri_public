@@ -1,0 +1,46 @@
+.space {
+    padding: 3em 3em 0em 3em;
+}
+
+.center {
+    text-align: center;
+}
+
+.label {
+    text-align: center;
+    font-size: 25px;
+}
+
+.login {
+    padding: 2em 3em;
+    margin: 2em 0;
+    font-weight: bold;
+    background: #fffaf0;
+    border: solid 3px #ffdab9;/*線*/
+    border-radius: 10px;/*角の丸み*/
+
+}
+
+.loginLabel{
+    font-size: 25px;
+    color: #444444;
+}
+
+.loginButton {
+    padding: 0.5em 0.5em;
+    text-align: center;
+    font-weight: bold;
+    color: #444444;/*文字色*/
+    background: #fffaf0;
+    border: solid 3px #ffdab9;/*線*/
+    border-radius: 10px;/*角の丸み*/
+    width:100px;
+    height:50px;
+}
+
+.buttonSet {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+
+  }

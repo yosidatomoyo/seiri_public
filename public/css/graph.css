@@ -1,0 +1,171 @@
+.space{
+    padding: 1rem 3rem 1rem;
+}
+
+
+
+/*選択されているタブのコンテンツのみを表示*/
+#bodyTemperature:checked ~ #graph1,
+#Constipation:checked ~ #graph2,
+#menstrualBlood:checked ~ #graph2,
+#orimono:checked ~ #graph2,
+#headache:checked ~ #graph3,
+#lowerBackPain:checked ~ #graph3, 
+#ChestTension:checked ~ #graph3, 
+#stomachAche:checked ~ #graph3 {
+  display: block;
+}
+
+.chartWrapper {
+   position: relative; 
+   overflow-x: scroll; 
+}
+
+
+.chartContainer {
+   height:200px;
+}
+
+.chartContainer2 {
+   height:200px;
+}
+
+.chartStyle {
+   position: absolute; 
+   left: 0; top: 0;
+}
+
+
+#header {
+   text-align: center;
+   font-size: 20px;
+   width: 100%;
+   margin-top: 3rem ;
+   margin-bottom: 0.5rem ;
+}
+
+/*ボタン*/
+#next-prev-button {
+   position: relative;
+}
+#next-prev-button button{
+   cursor: pointer;
+   background: #f08080;
+   color: #fff;
+   border: 1px solid #f08080;
+   border-radius: 4px;
+   font-size: 1rem;
+   padding: 0rem 1rem;
+   margin-top: 3rem ;
+   margin-bottom: 0.5rem ;
+
+}
+#next-prev-button button:hover{
+   background-color: #D4BB92;
+   border-color: #D4BB92;
+}
+#prev {
+   float: left;
+}
+#next {
+   float: right;
+}
+
+
+
+ @media (min-width: 430px) {
+    /* .seiriDateLabel {
+        font-size: 15px;
+     }
+     .seiriDate {
+        font-size: 17px;
+     }
+     .bodyStateStar {
+        font-size: 13px;
+     }
+    .seiriCountdown  {
+        font-size: 20px;
+    }
+    .seiriCountdownLabel {
+        font-size: 15px;
+     } */
+
+  }
+
+ @media (min-width: 640px) {
+    /* .seiriCountdown  {
+        font-size: 25px;
+    }
+    .seiriCountdownLabel {
+        font-size: 15px;
+     }
+     .seiriDateLabel {
+        font-size: 20px;
+     }
+     .seiriDate {
+        font-size: 20px;
+     } */
+  }
+
+  @media (min-width: 768px) {
+    /* .seiriCountdown  {  
+        font-size: 25px;
+    }
+    .seiriCountdownLabel {
+        font-size: 15px;
+     }
+     .seiriDateLabel {
+        font-size: 25px;
+     }
+     .seiriDate {
+        font-size: 20px;
+     } */
+  }
+
+  @media (min-width: 1024px) {
+    /* .seiriCountdown  {
+        font-size: 30px;
+    }
+    .seiriCountdownLabel {
+        font-size: 20px;
+     }
+     .seiriDateLabel {
+        font-size: 20px;
+     }
+     .seiriDate {
+        font-size: 20px;
+     } */
+  }
+
+  @media (min-width: 1280px) {
+    /* .seiriCountdown  {
+        font-size: 30px;
+    }
+    .seiriCountdownLabel {
+        font-size: 20px;
+     }
+     .seiriDateLabel {
+        font-size: 25px;
+     }
+     .seiriDate {
+        font-size: 25px;
+     } */
+  }
+
+  @media (min-width: 1536px) {
+    /* .seiriCountdown  {
+        font-size: 30px;
+    }
+    .seiriCountdownLabel {
+        font-size: 20px;
+     }
+     .seiriDateLabel {
+        font-size: 30px;
+     }
+     .seiriDate {
+        font-size: 25px;
+     } */
+  }
+
+
+  

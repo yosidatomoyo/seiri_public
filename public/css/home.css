@@ -1,0 +1,206 @@
+.space{
+    padding: 3em;
+}
+
+.seiriState{
+    position: relative;
+    border: solid 2px #ffcb8a;
+    border-radius: 3px 0 3px 0;
+    background-color: #ffffff;
+    max-width: 700px;
+}
+.seiriState:before,.seiriState:after
+{
+    content: '';
+    position: absolute;
+    width:10px;
+    height: 10px;
+    border: solid 2px #ffcb8a;
+    border-radius: 50%;
+}
+.seiriState:after {
+    top:-12px;
+    left:-12px;
+}
+.seiriState:before {
+    bottom:-12px;
+    right:-12px;
+}
+.seiriState p {
+    margin: 0; 
+    padding: 0;
+}
+
+  .bodyState {
+    position: relative;
+    margin: 2em 0;
+    padding: 0.25em 1em;
+    border: solid 3px #ffc3c3;
+    border-radius: 3px 0 3px 0;
+    background-color: #ffffff;
+    max-width: 700px;
+
+
+}
+.bodyState .box-title {
+    position: absolute;
+    display: inline-block;
+    top: -27px;
+    left: -3px;
+    padding: 0 9px;
+    height: 25px;
+    line-height: 25px;
+    font-size: 17px;
+    background: #ffc3c3;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 5px 5px 0 0;
+}
+.bodyState p {
+    margin: 0; 
+    padding: 0;
+}
+
+
+ /* 生理開始日全体の設定 */
+.contents {
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* padding: auto; */
+
+    font-family: "ヒラギノ丸ゴ ProN" ;
+    color: #444444;
+
+ }
+
+ /* 生理開始日要素の設定 */
+ .item {
+    width:  auto;
+    padding: 5px 10px ;
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+/* 生理予定日ラベル */
+ .seiriDateLabel {
+    font-size: 20px;
+    font-weight:  bold;
+ }
+ /* 生理予定日 */
+ .seiriDate {
+    font-weight:  bold;
+    font-size: 25px;
+
+
+ }
+/* 体の状態　妊娠可能性 */
+ .bodyStateStar {
+    font-size: 15px;
+
+ }
+/* 生理開始日までラベル */
+ .seiriCountdownLabel {
+    font-weight:  bold;
+    font-size: 20px;
+
+ }
+/* 生理開始日 */
+ .seiriCountdown {
+    font-weight:  bold;
+    font-size: 30px;
+
+ }
+
+ @media (min-width: 430px) {
+    /* .seiriDateLabel {
+        font-size: 15px;
+     }
+     .seiriDate {
+        font-size: 17px;
+     }
+     .bodyStateStar {
+        font-size: 13px;
+     }
+    .seiriCountdown  {
+        font-size: 20px;
+    }
+    .seiriCountdownLabel {
+        font-size: 15px;
+     } */
+
+  }
+
+ @media (min-width: 640px) {
+    /* .seiriCountdown  {
+        font-size: 25px;
+    }
+    .seiriCountdownLabel {
+        font-size: 15px;
+     }
+     .seiriDateLabel {
+        font-size: 20px;
+     }
+     .seiriDate {
+        font-size: 20px;
+     } */
+  }
+
+  @media (min-width: 768px) {
+    /* .seiriCountdown  {  
+        font-size: 25px;
+    }
+    .seiriCountdownLabel {
+        font-size: 15px;
+     }
+     .seiriDateLabel {
+        font-size: 25px;
+     }
+     .seiriDate {
+        font-size: 20px;
+     } */
+  }
+
+  @media (min-width: 1024px) {
+    /* .seiriCountdown  {
+        font-size: 30px;
+    }
+    .seiriCountdownLabel {
+        font-size: 20px;
+     }
+     .seiriDateLabel {
+        font-size: 20px;
+     }
+     .seiriDate {
+        font-size: 20px;
+     } */
+  }
+
+  @media (min-width: 1280px) {
+    /* .seiriCountdown  {
+        font-size: 30px;
+    }
+    .seiriCountdownLabel {
+        font-size: 20px;
+     }
+     .seiriDateLabel {
+        font-size: 25px;
+     }
+     .seiriDate {
+        font-size: 25px;
+     } */
+  }
+
+  @media (min-width: 1536px) {
+    /* .seiriCountdown  {
+        font-size: 30px;
+    }
+    .seiriCountdownLabel {
+        font-size: 20px;
+     }
+     .seiriDateLabel {
+        font-size: 30px;
+     }
+     .seiriDate {
+        font-size: 25px;
+     } */
+  }

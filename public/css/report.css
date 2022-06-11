@@ -1,0 +1,162 @@
+.space{
+    padding: 3em;
+}
+
+
+ /* 横の幅設定 */
+ .itemDayReport{
+    margin-left: 5px;
+    text-align: left;
+
+ }
+
+.dateButton{
+    width:  500px;
+
+}
+
+/* 破線 */
+.dashed {
+    background-image : linear-gradient(to right, #000, #000 2px, transparent 2px, transparent 8px);  /* 幅2の線を作る */
+    background-size: 8px 1px;          /* グラデーションの幅・高さを指定 */
+    background-position: left bottom;  /* 背景の開始位置を指定 */
+    background-repeat: repeat-x;       /* 横向きにのみ繰り返す */
+  }
+
+
+ /* 1日のブロック */
+.contents {
+    width:  auto;
+    display: flex;
+    flex-wrap: wrap; 
+    padding: 0px 3px ;
+    text-align: left;
+    font-family: "ヒラギノ丸ゴ ProN" ;
+    color: #444444;
+
+ }
+
+ /* ラベル */
+ .itemLabel{
+    width:  80px;
+    margin-left: 5px;
+    text-align: left;
+
+ }
+
+ /* 生理開始日要素の設定 */
+ .item {
+    width:  auto;
+    margin-left: 5px;
+    text-align: center;
+
+ }
+.prev-button{
+   cursor: pointer;
+   background: #f08080;
+   color: #fff;
+   border: 1px solid #f08080;
+   border-radius: 4px;
+   font-size: 1rem;
+   padding: 0rem 1rem;
+   margin: 0.5rem 1rem  0.5rem 1rem ;
+
+
+}
+
+ @media (min-width: 430px) {
+    /* .seiriDateLabel {
+        font-size: 15px;
+     }
+     .seiriDate {
+        font-size: 17px;
+     }
+     .bodyStateStar {
+        font-size: 13px;
+     }
+    .seiriCountdown  {
+        font-size: 20px;
+    }
+    .seiriCountdownLabel {
+        font-size: 15px;
+     } */
+
+  }
+
+ @media (min-width: 640px) {
+    /* .seiriCountdown  {
+        font-size: 25px;
+    }
+    .seiriCountdownLabel {
+        font-size: 15px;
+     }
+     .seiriDateLabel {
+        font-size: 20px;
+     }
+     .seiriDate {
+        font-size: 20px;
+     } */
+  }
+
+  @media (min-width: 768px) {
+    /* .seiriCountdown  {  
+        font-size: 25px;
+    }
+    .seiriCountdownLabel {
+        font-size: 15px;
+     }
+     .seiriDateLabel {
+        font-size: 25px;
+     }
+     .seiriDate {
+        font-size: 20px;
+     } */
+  }
+
+  @media (min-width: 1024px) {
+    /* .seiriCountdown  {
+        font-size: 30px;
+    }
+    .seiriCountdownLabel {
+        font-size: 20px;
+     }
+     .seiriDateLabel {
+        font-size: 20px;
+     }
+     .seiriDate {
+        font-size: 20px;
+     } */
+  }
+
+  @media (min-width: 1280px) {
+    /* .seiriCountdown  {
+        font-size: 30px;
+    }
+    .seiriCountdownLabel {
+        font-size: 20px;
+     }
+     .seiriDateLabel {
+        font-size: 25px;
+     }
+     .seiriDate {
+        font-size: 25px;
+     } */
+  }
+
+  @media (min-width: 1536px) {
+    /* .seiriCountdown  {
+        font-size: 30px;
+    }
+    .seiriCountdownLabel {
+        font-size: 20px;
+     }
+     .seiriDateLabel {
+        font-size: 30px;
+     }
+     .seiriDate {
+        font-size: 25px;
+     } */
+  }
+
+
+  

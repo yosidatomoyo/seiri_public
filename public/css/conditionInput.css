@@ -1,0 +1,215 @@
+.space{
+    padding: 3em;
+}
+
+ /* 生理開始日全体の設定 */
+.contents {
+    width:  auto;
+    display: flex;
+    flex-wrap: wrap; 
+    padding: 5px 10px ;
+    text-align: left;
+    font-family: "ヒラギノ丸ゴ ProN" ;
+    color: #444444;
+
+ }
+
+ /* ラベル */
+ .itemLabel{
+    width:  100px;
+    margin-left: 5px;
+    padding-top: 11px;
+    text-align: left;
+
+ }
+
+ /* 生理開始日要素の設定 */
+ .item {
+    width:  auto;
+    margin-left: 5px;
+    text-align: center;
+
+ }
+
+fieldset {
+  border: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.radio-inline__input {
+    clip: rect(1px, 1px, 1px, 1px);
+    position: absolute !important;
+    
+}
+.radio-inline__label {
+    padding: 0.5rem 1rem;
+    margin-right: 18px;
+    border-radius: 3px;
+    transition: all .2s;
+}
+.radio-inline__input:checked + .radio-inline__label {
+    font-weight: bold;
+    color: #fff;/* 文字の色 */
+    background: -moz-linear-gradient(45deg, #ffb2b4f9 0%, #ffd8b1 99%, #ffe7e0 100%);
+    background: -webkit-linear-gradient(45deg, #ffb2b4f9 0%, #ffd8b1 99%, #ffe7e0 100%);
+    background: linear-gradient(45deg, #ffb2b4f9 0%, #ffd8b1 99%, #ffe7e0 100%);/* 背景グラデーション */
+    box-shadow: 0 1px 1px 2px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    padding: .5em 1em;
+}
+.radio-inline__input + .radio-inline__label {
+
+
+   font-weight: bold;
+   color: #fff;/* 文字の色 */
+   background: -moz-linear-gradient(45deg, #404040 0%, #c4c3c296 99%, #c4c3c296 100%);
+   background: -webkit-linear-gradient(45deg, #444444 0%, #c4c3c296 99%, #c4c3c296  100%);
+   background: linear-gradient(45deg, #79797996 0%, #79797996 99%, #79797996 100%);/* 背景グラデーション */
+   box-shadow: 0 1px 1px 2px rgba(0,0,0,0.1);
+   border-radius: 8px;
+   padding: .5em 1em;
+}
+
+
+* {
+    box-sizing: border-box;
+  }
+  
+  
+  .form-group + .form-group {
+    margin-top: 1.5rem;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    
+  }
+
+   /* リストボックス */
+   .listbox {
+      width:120px;
+   }
+
+  /* メモ */
+  .memo {
+   height:100px;
+   width:350px;
+   }
+ @media (max-width: 430px) {
+
+   .space{
+      padding: 1em;
+  }
+      /* ラベル */
+      .itemLabel{
+         /* width: 20px; */
+         font-size: 13px;
+         margin-left: 2px;
+         padding-top: 11px;
+         text-align: left;
+
+      }
+
+      /* リストボックス */
+      .listbox {
+         width:50px;
+         font-size: 7px;
+      }
+
+      /* メモ */
+      .memo {
+      height:100px;
+      width:200px;
+      }
+
+      .radio-inline__input {
+         width:65px;
+         
+     }
+     .radio-inline__label {
+      font-size: 10px;
+     }
+     .radio-inline__input:checked + .radio-inline__label {
+      font-size: 10px;
+     }
+     .radio-inline__input + .radio-inline__label {
+      width:65px;
+     }
+
+  }
+
+ @media (max-width: 640px) {
+    /* .seiriCountdown  {
+        font-size: 25px;
+    }
+    .seiriCountdownLabel {
+        font-size: 15px;
+     }
+     .seiriDateLabel {
+        font-size: 20px;
+     }
+     .seiriDate {
+        font-size: 20px;
+     } */
+  }
+
+  @media (max-width: 768px) {
+    /* .seiriCountdown  {  
+        font-size: 25px;
+    }
+    .seiriCountdownLabel {
+        font-size: 15px;
+     }
+     .seiriDateLabel {
+        font-size: 25px;
+     }
+     .seiriDate {
+        font-size: 20px;
+     } */
+  }
+
+  @media (max-width: 1170px) {
+      /* ラベル */
+      .itemLabel{
+         width: 55px;
+         font-size: 13px;
+         margin-left: 5px;
+         padding-top: 11px;
+         text-align: left;
+
+      }
+
+      /* リストボックス */
+      .listbox {
+         width:100px;
+         font-size: 12px;
+      }
+
+      /* メモ */
+      .memo {
+      height:100px;
+      width:250px;
+      }
+
+      .radio-inline__input {
+         max-width:110px;
+         
+     }
+     .radio-inline__label {
+      font-size: 13px;
+     }
+     .radio-inline__input:checked + .radio-inline__label {
+      font-size: 13px;
+     }
+     .radio-inline__input + .radio-inline__label {
+      max-width:110px;
+     }
+  }
+
+
+
+
+  

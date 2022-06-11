@@ -1,0 +1,8 @@
+.frame {
+    padding: 1em 1em;
+    font-weight: bold;
+    border: solid 3px #f0b77f ;/*線*/
+    border-radius: 10px;/*角の丸み*/
+    max-width: 1800px;
+    margin: 1em auto;
+}
