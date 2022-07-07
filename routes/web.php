@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use Illuminate\Http\Request;
 
+use App\Http\Controllers\HomeController;
 use App\Http\Controllers\Register\InitialSettingController;
 use App\Http\Controllers\Register\ConditionInputController;
 use App\Http\Controllers\ReportController;
@@ -27,9 +28,13 @@ Route::get('/', function () {
 
 
 // ホーム画面
-Route::get('/dashboard', function () {
-    return view('dashboard');
-})->middleware(['auth'])->name('dashboard');
+// Route::get('/dashboard', function () {
+//     return view('dashboard');
+// })->middleware(['auth'])->name('dashboard');
+
+Route::get('/dashboard',[HomeController::class, 'index']) 
+            ->middleware(['auth'])
+            ->name('dashboard');
 
 
 // 体調入力画面
